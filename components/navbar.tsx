@@ -11,7 +11,7 @@ const Navbar = () => {
           <Link href="/" className="">
             <Image
               style={{ borderRadius: "32px", overflow: "hidden" }}
-              src="/PasFotoHansen.webp"
+              src="/Public/PasFotoHansen.webp"
               width={64}
               height={64}
               alt="Picture of the author"
