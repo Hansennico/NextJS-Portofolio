@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ThemeToggle } from "./theme-toggle";
 
 const Navbar = () => {
@@ -7,8 +8,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="text-xl font-semibold">
-            Logo
+          <Link href="/" className="">
+            <Image
+              style={{ borderRadius: "32px", overflow: "hidden" }}
+              src="/Pas Foto.jpeg"
+              width={64}
+              height={64}
+              alt="Picture of the author"
+            />
           </Link>
 
           {/* Navigation Links */}

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <span className="text-sm">Powered by Next.js</span>
+            <span className="text-sm">Powered by Next.js & Vercel</span>
           </div>
 
           <div className="flex items-center gap-6">
@@ -26,7 +26,7 @@ const Footer = () => {
               <Instagram size={20} />
             </a>
             <a
-              href="https://wa.me/085717844289"
+              href="https://wa.me/6285717844289"
               className="text-gray-600 dark:text-white hover:text-gray-800 dark:hover:text-gray-300 transition-colors"
               aria-label="WhatsApp"
             >
