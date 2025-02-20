@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import PasFoto from "@/Public/PasFotoHansen.webp";
 import { ThemeToggle } from "./theme-toggle";
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
           <Link href="/" className="">
             <Image
               style={{ borderRadius: "32px", overflow: "hidden" }}
-              src="/Public/PasFotoHansen.webp"
+              src={PasFoto}
               width={64}
               height={64}
               alt="Picture of the author"
