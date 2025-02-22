@@ -5,9 +5,9 @@ This is a [Next.js](https://nextjs.org "Next.js Homepage") [Tailwind](https://ta
 Deployed by [Vercel](https://vercel.com/)<br />
 --> [Site Preview](https://next-js-portofolio-ten.vercel.app/)
 
-## Depdency :
-**Tailwind** for UI and Layout
-**Eslint** for debuging js
+## Depedency :
+**Tailwind** for UI and Layout<br />
+**Eslint** for debuging js<br />
 **Lucide** for icon
 
 ## Tool:
