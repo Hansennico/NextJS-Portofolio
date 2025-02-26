@@ -7,14 +7,10 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <main className="flex-1 flex flex-col items-center justify-center bg-gray-50 dark:bg-black transition-colors duration-200">
+    <main>
       <div className="p-4 mx-auto max-w-xl dark:bg-white bg-gray-800 border font-[sans-serif] rounded-xl">
-        <h1 className="text-4xl font-bold dark:text-gray-900 text-white mb-4">
-          Contact me
-        </h1>
-        <h2 className="text-xl dark:text-gray-600 text-gray-300">
-          Feel free to ask me anything
-        </h2>
+        <h1>Contact me</h1>
+        <h2>Feel free to ask me anything</h2>
         <form className="mt-8 space-y-4">
           <input
             type="text"
