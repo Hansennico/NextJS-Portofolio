@@ -7,7 +7,7 @@ export default function Home() {
       <div className="max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-16 flex flex-col md:grid md:grid-cols-2 gap-4">
         <div>
           <h1>Hi, I&apos;m Nicolas Hansen</h1>
-          <h2>
+          <p>
             A Software and Web Developer,
             <br />
             Currently studying at the Bina Nusantara University
@@ -16,34 +16,34 @@ export default function Home() {
             build things and make them work
             <br />
             and learn new things.
-          </h2>
+          </p>
           <br />
 
           <h1>Technical Skill</h1>
           <div className="grid grid-cols-2 grid-rows-1 gap-4">
             <div>
-              <h2>
+              <p>
                 <li>C++</li>
                 <li>Java</li>
                 <li>Python</li>
-              </h2>
+              </p>
             </div>
             <div>
-              <h2>
+              <p>
                 <li>SQL</li>
                 <li>Laravel Framwork</li>
                 <li>Spring boot Framework</li>
-              </h2>
+              </p>
             </div>
           </div>
           <br />
 
           <h1>Familiar Tools</h1>
-          <h2>
+          <p>
             <li>Git</li>
             <li>Docker</li>
             <li>Vercel</li>
-          </h2>
+          </p>
         </div>
 
         <div className="md:justify-self-end">

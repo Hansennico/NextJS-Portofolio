@@ -1,4 +1,4 @@
-import { MessageCircle, Instagram, Phone, Mail } from "lucide-react";
+import { Github, Phone, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,18 +11,11 @@ const Footer = () => {
 
           <div className="flex items-center gap-6">
             <a
-              href="https://discordapp.com/users/479281969637883907"
+              href="https://github.com/Hansennico"
               className="text-gray-600 dark:text-white hover:text-gray-800 dark:hover:text-gray-300 transition-colors"
-              aria-label="Discord"
+              aria-label="Github"
             >
-              <MessageCircle size={20} />
-            </a>
-            <a
-              href="https://www.instagram.com/hansennico44/"
-              className="text-gray-600 dark:text-white hover:text-gray-800 dark:hover:text-gray-300 transition-colors"
-              aria-label="Instagram"
-            >
-              <Instagram size={20} />
+              <Github size={20} />
             </a>
             <a
               href="https://wa.me/6285717844289"

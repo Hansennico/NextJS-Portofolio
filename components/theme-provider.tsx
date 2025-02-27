@@ -11,7 +11,6 @@ type ThemeContextType = {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  // Initialize with undefined to avoid hydration mismatch
   const [theme, setTheme] = useState<Theme | undefined>(undefined);
 
   useEffect(() => {
@@ -22,7 +21,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const toggleTheme = () => {
-    if (!theme) return; // Guard clause for undefined theme
+    if (!theme) return;
 
     const newTheme = theme === "dark" ? "light" : "dark";
     setTheme(newTheme);
@@ -30,9 +29,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     document.documentElement.classList.toggle("dark", newTheme === "dark");
   };
 
-  // Only render children when theme is initialized
   if (theme === undefined) {
-    return null; // Or a loading spinner
+    return null;
   }
 
   return (
