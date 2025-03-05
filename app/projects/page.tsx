@@ -12,18 +12,12 @@ export default function Projects() {
   return (
     <main>
       <div className="max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-center">Projects</h1>
+        <h1 className="text-center">Projects List</h1>
         <br />
 
         <div className="flex flex-col space-y-4 max-w-4xl mx-auto">
           {database.map((project, index) => (
-            <div
-              key={index}
-              className="flex flex-row 
-              dark:bg-gray-900 bg-sky-300 rounded-lg overflow-hidden border 
-              dark:border-gray-800 dark:hover:border-gray-700 border-gray-300 hover:border-gray-500
-              transition-all duration-300"
-            >
+            <div key={index} className="flex flex-row widget">
               {/* Project icon */}
               <div className="flex-shrink-0 w-20 h-full py-4 px-3 flex items-center justify-center">
                 {project.image && (
