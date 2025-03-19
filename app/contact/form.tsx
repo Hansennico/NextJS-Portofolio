@@ -54,7 +54,6 @@ export default function EmailForm() {
         throw new Error(data.message || "Failed to send email");
       }
     } catch (error: unknown) {
-      // Use unknown instead of any, then type narrow
       let errorMessage = "Something went wrong. Please try again.";
 
       if (error instanceof Error) {
