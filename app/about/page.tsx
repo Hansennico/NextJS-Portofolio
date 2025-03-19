@@ -33,15 +33,13 @@ export default function About() {
             Software & Web developer live in indonesia. I am {age} years old and
             currently studying at the Bina Nusantara University. My hobby is
             playing game. When i have free time i love learning new things like
-            learn new programming languange or trying something new like making
-            game, in the past i&apos;ve made simple games using Unity(C#),
-            JavaFX and roblox game engine(Lua). When I was in college, I often
-            made assignments or projects about software and websites, but since
-            I have changed laptops and lost all the data on the old laptop, now
-            I&apos;am recreating the project project I have created and
-            uploading it to github. And my conclusion, I&apos;m more interested
-            in the backend because i love to solve and make things work. Now
-            i&apos;m looking for opportunity & working experience
+            learn new programming languange or trying something new. When I was
+            in college, I often made assignments or projects about software and
+            websites, but since my old laptop stolen so i lost all the data on
+            the old laptop, now I&apos;am recreating the project project I have
+            created and uploading it to github. And my conclusion, I&apos;m more
+            interested in the backend because i love to solve and make things
+            work. Now i&apos;m looking for opportunity & working experience
           </p>
         </div>
       </div>

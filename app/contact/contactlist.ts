@@ -1,10 +1,10 @@
 const contact = [
   {
-    discord: "hansennico",
-    discordUrl: "https://discord.com/users/479281969637883907",
+    discord: "アル",
+    discordUrl: "https://discord.com/users/1285508672482447394",
 
     instagram: "Nicolas Hansen",
-    instagramUrl: "https://www.instagram.com/hansennico44/",
+    instagramUrl: "https://www.instagram.com/nicolas_han15/",
 
     twitter: "反戦",
     twitterUrl: "https://x.com/hansennico_",
@@ -15,8 +15,8 @@ const contact = [
     email: "nicolas.hansen15@proton.me",
     emailUrl: "mailto:nicolas.hansen15@proton.me",
 
-    whatsapp: "085717844289",
-    whatsappUrl: "https://wa.me/6285717844289",
+    whatsapp: "082125574602",
+    whatsappUrl: "https://wa.me/6282125574602",
 
     github: "Hansennico",
     githubUrl: "https://github.com/Hansennico",
