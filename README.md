@@ -7,8 +7,8 @@ Deployed by [Vercel](https://vercel.com/) `<br />`
 
 ## Depedency
 
-**Tailwind** for UI and Layout `<br />`
-**Eslint** for debuging js `<br />`
+**Tailwind** for UI and Layout <br />
+**Eslint** for debuging js <br />
 **Lucide** & **react-icon** for icon
 
 ## Tool
